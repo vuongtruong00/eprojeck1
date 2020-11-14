@@ -1,0 +1,51 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, .2), 
+  rgba(0, 0, 0, .5)), 
+  url(../../img/cms/admin-login-bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#formWrapper {
+  margin: 100px auto 0 auto;
+  background: white;
+  padding: 30px 50px;
+} 
+
+#formWrapper .btn-block {
+  margin: 40px 0;
+  background: #007bff;
+  padding: 10px;
+  margin-top: 50px;
+} 
+
+#formWrapper input {
+  border: none;
+}
+
+#formWrapper i {
+  display: block;
+}
+
+#formWrapper .form-group {
+  border-bottom: 1px solid grey;
+  color: grey;
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+
+/* remove bootstrap input outline */
+#formWrapper .form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.forget,
+.form-check-input,
+.form-check-label {
+  line-height: 1.3rem;
+}

@@ -1,0 +1,114 @@
+.img-wrapper {
+  padding: 1px;
+  overflow: hidden;
+}
+
+.img-wrapper>div{
+  position: relative;
+  width: 100%;
+  padding-bottom: 67%;
+}
+
+#item-container img {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-wrapper .fas {
+  margin: .5rem;
+  font-size: 1.5rem;
+  color: var(--text-pri);
+  cursor: pointer;
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  opacity: 0;
+  z-index: 8;
+  transition: all 0.3s;
+}
+
+.img-wrapper:hover .fas {
+  opacity: 1;
+  bottom: 0;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+}
+
+.img-wrapper:hover .hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+}
+
+
+#upload-label {
+  width: 250px;
+}
+
+#delete-all{
+  display: block;
+}
+
+/* --------------- IMG OVERLAY ---------------- */
+
+/* .hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 70%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 8;
+  transition: all 0.3s;
+  text-align: end;
+}
+.hover .fas {
+  margin: .5rem;
+  font-size: 1.5rem;
+  color: var(--text-pri);
+  cursor: pointer;
+ }
+
+.hover:hover .hover-content {
+  bottom: 0.5rem;
+  opacity: 1;
+}
+
+.hover:hover .hover-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+} */
