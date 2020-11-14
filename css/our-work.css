@@ -1,0 +1,34 @@
+body {
+  background: #FAFAFA;
+}
+
+.long-content {
+  height: 3rem;
+}
+
+.like-comment {
+  display: flex;
+}
+
+.like-comment .fas {
+  font-size: 1.2rem;
+}
+
+.like-comment .fa-heart {
+  color: #eb6383;
+}
+
+.like-comment span {
+  color: grey;
+  margin: 0 5px;
+}
+
+.like,
+.comment {
+  display: flex;
+  align-items: center;
+}
+
+.like {
+  margin-right: 20px;
+}

@@ -1,0 +1,67 @@
+
+:root {
+  --text: #fff;
+  --text-sec: #bbb;
+}
+
+main {
+  background-image: linear-gradient(rgba(0, 0, 0, .2), 
+  rgba(0, 0, 0, .5)), 
+  url(../img/cms/admin-login-bg3.jpg);
+  min-height: calc(100vh - 59px);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 10px;
+}
+
+#formWrapper {
+  margin-top: 0px;
+  color: var(--text);
+}
+
+#formWrapper input {
+  background: rgba(0,0,0,.1);
+  border: none;
+  border-radius: 50px;
+  color: var(--text-sec);
+}
+
+.btn {
+  color: #fff;
+}
+
+.file-upload input[type='file'] {
+  display: none;
+}
+
+.image-area {
+  border: 2px dashed var(--text);
+  padding: 1rem;
+  position: relative;
+}
+
+.image-area::before {
+  content: 'Uploaded image';
+  color: var(--text);
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  z-index: 1;
+}
+
+.image-area img {
+  z-index: 2;
+  position: relative;
+}
+
+/* remove bootstrap input outline */
+#formWrapper .form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

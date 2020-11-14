@@ -1,0 +1,15 @@
+:root {
+  --text: #000;
+  --text-sec: #444;
+}
+
+main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), 
+  rgba(0, 0, 0, 0)), 
+  url(../img/cms/admin-login-bg2.jpg);
+  min-height: calc(100vh - 59px);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 10px 0;
+}

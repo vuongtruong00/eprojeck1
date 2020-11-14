@@ -1,0 +1,71 @@
+body {
+  background: #FAFAFA;
+}
+
+.tittle {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 4rem;
+}
+
+.card-img-top {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 20px auto 0px auto;
+}
+
+.long-content {
+  max-height: 3rem;
+  min-height: 3rem;
+  overflow: hidden;
+  transition: .2s ease-out;
+  font-size: .95rem;
+}
+
+.long-content .more {
+  transition: .1s ease-out;
+  opacity: 0;
+}
+
+.long-content.show {
+  transition: .8s ease-out;
+  max-height: 20rem;
+}
+
+.long-content.show .dots {
+  display: none;
+}
+
+.long-content.show .more {
+  opacity: 1;
+}
+
+.show-more-place-holder {
+  height: 40px;
+}
+
+.show-more {
+  font-size: .9rem;
+}
+
+.show-more .fas {
+  font-size: .8rem;
+  transition: .8s;
+}
+
+.long-content.show + .show-more .fas {
+  transform: rotateX(180deg) translateY(15%);
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  padding-bottom: 0;
+}
+
+.social-media-container a {
+  display: block;
+  font-size: 1.3rem;
+}

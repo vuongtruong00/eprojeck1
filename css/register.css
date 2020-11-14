@@ -1,0 +1,86 @@
+:root {
+  --text: #000;
+}
+
+main {
+  min-height: calc(100vh - 59px);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), 
+  rgba(0, 0, 0, 0)), 
+  url(../img/cms/admin-login-bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-bottom: 10px;
+}
+
+#formWrapper {
+  color: var(--text);
+} 
+
+
+#formWrapper .btn-block {
+  margin: 50px 0;
+  padding: 10px;
+  border: none;
+} 
+
+#formWrapper input {
+  border: none;
+  background: none;
+  color: var(--text);
+}
+
+#formWrapper input::placeholder {
+  color: #555;
+}
+
+.forget {
+  color: var(--text);
+}
+
+#formWrapper i {
+  display: block;
+}
+
+#formWrapper .form-group {
+  border-bottom: 1px solid var(--text);
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+}
+
+/* remove bootstrap input outline */
+#formWrapper .form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.file-upload input[type='file'] {
+  display: none;
+}
+
+.image-area {
+  border: 2px dashed var(--text);
+  padding: 1rem;
+  position: relative;
+}
+
+.image-area::before {
+  content: 'Uploaded image';
+  color: var(--text-pri);
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  z-index: 1;
+}
+
+.image-area img {
+  z-index: 2;
+  position: relative;
+}

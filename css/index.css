@@ -1,0 +1,23 @@
+.carousel-item {
+  height: calc(100vh - 59px);
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background: #FAFAFA;
+}
+
+section {
+  background: #fff;
+  margin-bottom: 15px;
+}
+
+section h2 {
+  font-size: 3.5rem;
+}
+

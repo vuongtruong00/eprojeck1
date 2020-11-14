@@ -1,0 +1,93 @@
+* {
+  letter-spacing: .03em;
+}
+
+a {
+  cursor: pointer;
+}
+
+body {
+  background: #fff;
+}
+
+nav img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+nav .nav-link {
+  line-height: 2rem;
+}
+
+section {
+  background: #FAFAFA;
+  margin-bottom: 15px;
+}
+
+.dropdown-menu {
+  top: 95%;
+}
+
+.navbar-brand {
+  letter-spacing: 3px;
+  font-size: 1.8rem;
+  padding: 0;
+  font-weight: bold;
+}
+
+.card {
+  /* height: auto !important; */
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.outmost-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#map {
+  width: 100%;
+  height: 500px;
+  filter: brightness(.5);
+  transition: .3s ease-in-out;
+}
+
+#map:hover {
+  filter: brightness(1);
+}
+
+#goToEmailUs {
+  background-image: linear-gradient(rgba(0, 0, 0, .3), 
+  rgba(0, 0, 0, .6)), 
+  url(../img/cms/admin-login-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 60px 0;
+  margin-top: 30px;
+}
+
+#goToEmailUs .text {
+  font-size: 4rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#goToEmailUs .btn {
+  font-size: 2rem;
+  padding: 15px 100px;
+  margin: 10px 0;
+}
+
+.social-media .fab {
+  font-size: 3rem;
+  margin: 10px 10px 10px 0;
+  filter: drop-shadow(1px 1px 1px rgba(2, 117, 216, .5));
+}
+
